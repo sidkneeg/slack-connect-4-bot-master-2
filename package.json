@@ -1,0 +1,28 @@
+{
+  "name": "slack-connect-4-bot",
+  "version": "1.0.0",
+  "description": "A bot that allows you to play Connect 4 on Slack",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "mocha --compilers js:mocha-traceur --recursive"
+  },
+  "repository": "wgpsutherland/slack-connect-4-bot",
+  "keywords": [
+    "slack",
+    "connect 4",
+    "bot"
+  ],
+  "author": "wgpsutherland",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "rx": "^3.1.2",
+    "slack-client": "^1.4.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.0",
+    "mocha-traceur": "^2.1.0"
+  }
+}
